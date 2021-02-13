@@ -433,6 +433,9 @@ footer {
   bottom: 50px;
   right: 50px;
 }
+.top-back img{
+    width: 50px;
+  }
 
 /*↓リンクブロック↓*/
 .item {
