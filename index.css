@@ -596,6 +596,9 @@ footer {
   .skill .skill-img img {
     max-width: 50px;
   }
+  .second-wrapper img{
+  left:70px;
+  }
 }
 
 @media (max-width: 320px) {
