@@ -8,5 +8,5 @@ const targetElement=document.querySelectorAll("#animation");
     }
   })
   $(function(){
-    $("h1").css("color","black");
+    $("h1").css("color","red");
   });
