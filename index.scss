@@ -28,7 +28,13 @@ header{
     color: #4e54c8
   }
 }
-
+/*↓titleエフェクト↓*/
+@keyframes titleAnimation{
+  0%{
+    letter-spacing: .3em;
+    opacity: 0;
+  }
+}
 
 /*アニメ背景*/
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
@@ -195,13 +201,7 @@ body{
 }
 /*↑アニメ背景ここまで↑*/
 
-/*↓titleエフェクト↓*/
-@keyframes titleAnimation{
-  0%{
-    letter-spacing: .3em;
-    opacity: 0;
-  }
-}
+
 /*↓表示エフェクト↓*/
 .about,
 .survice,
